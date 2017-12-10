@@ -75,21 +75,20 @@ WSGI_APPLICATION = 'django_girls_tutto.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # },
-    # 'postgres': {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_girls_tutto',
-        'USER': 'patterson',
-        'PASSWORD': 'admin',
-        # 'HOST': 'localhost',
-        # 'PORT': '',    # 8000 is default
-    }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    # 'postgres': {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'django_girls_tutto',
+    #     'USER': 'patterson',
+    #     'PASSWORD': 'admin',
+    #     # 'HOST': 'localhost',
+    #     # 'PORT': '',    # 8000 is default
+    # }
 }
-
 
 
 # Password validation
